@@ -81,7 +81,9 @@
     .video:before,
     .video:after,
     .parallax:before,
-    .parallax:after {
+    .parallax:after,
+    .portfolio:before,
+    .portfolio:after{
         height:150px;
     }
     .team figure {

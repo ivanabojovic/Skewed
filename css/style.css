@@ -94,7 +94,8 @@ navbar-nav li.active {
     max-width:800px;
     margin:auto;
 }
-.video:before {
+.video:before,
+.portfolio:before {
     content:'';
     position:absolute;
     top:0;
@@ -105,7 +106,8 @@ navbar-nav li.active {
     background-size:100% 100%;
     display:block;
 }
-.video:after {
+.video:after,
+.portfolio:after {
     content:'';
     position:absolute;
     bottom:0;
@@ -188,4 +190,23 @@ navbar-nav li.active {
 .parallax:after {
     bottom:0;
     background:url('assets/bottom-left.png') no-repeat;
+}
+.portfolio .hover {
+    position:absolute;
+    width:60px;
+    height:60px;
+    line-height:60px;
+    color:#101010;
+    background:rgba(255,255,255,0.5);
+    font-size:20px;
+    border-radius:50%;
+    overflow:hidden;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-decoration:none;
+    display:none;
+}
+.portfolio figure:hover .hover{
+    display:block;
 }
