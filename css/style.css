@@ -262,3 +262,19 @@ navbar-nav li.active {
 .form-control:-moz-placeholder { /* Firefox 18- */
   color: #fff;
 }
+
+footer .social .fa {
+    width:48px;
+    height:48px;
+    line-height:48px;
+    color:#fff;
+    border:2px solid #fff;
+    border-radius:50%;
+    font-size:28px;
+    transition: transform 0.5s ease 0s;
+    text-decoration:none;
+}
+footer .social .fa:hover {
+    color:#f7cc4b;
+    transform: rotateY(180deg);
+}
