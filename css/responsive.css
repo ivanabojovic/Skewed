@@ -18,7 +18,7 @@
         border-bottom:2px solid transparent;
         transition:0.5s linear;
     }
-    
+
     .navbar-nav li:hover,
     navbar-nav li.active {
         background:transparent;
@@ -39,7 +39,9 @@
     .navbar-brand {
         max-width:120px;
     }
-
+    .hello h2 {
+        font-size:60px !important;
+    }
 
 
 }
@@ -51,11 +53,21 @@
         font-size: 16px;
     }
 
-   .navbar-brand {
+    .navbar-brand {
         max-width:none;
     }
     .navbar-nav li a {
         padding:8px 15px !important;
+    }
+    .hello {
+        padding:300px 0;
+    }
+    .hello:after {
+        height:150px;
+        
+    }
+    .custom-padding {
+        padding:100px 0 !important;
     }
 }
 
@@ -65,7 +77,9 @@
 
 @media(min-width:1200px){
 
-
+.hello h2 {
+        font-size:82px !important;
+    }
 
 
 
