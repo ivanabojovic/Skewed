@@ -64,10 +64,13 @@
     }
     .hello:after {
         height:150px;
-        
+
     }
     .custom-padding {
         padding:100px 0 !important;
+    }
+    .about h2 {
+        font-size:60px;
     }
 }
 
@@ -77,7 +80,7 @@
 
 @media(min-width:1200px){
 
-.hello h2 {
+    .hello h2 {
         font-size:82px !important;
     }
 
