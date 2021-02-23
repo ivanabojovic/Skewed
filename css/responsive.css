@@ -87,7 +87,8 @@
     .parallax:before,
     .parallax:after,
     .portfolio:before,
-    .portfolio:after{
+    .portfolio:after,
+    .subscribe:before {
         height:150px;
     }
     .team figure {
