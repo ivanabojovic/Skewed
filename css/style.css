@@ -210,3 +210,12 @@ navbar-nav li.active {
 .portfolio figure:hover .hover{
     display:block;
 }
+.achievemnts .fa {
+    font-size:100px;
+    color:#000;
+    
+}
+.achievemnts .achievements-value {
+    font-size:84px;
+    letter-spacing:-2.5px;
+}
