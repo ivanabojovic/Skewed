@@ -82,7 +82,12 @@
     .video:after {
         height:150px;
     }
-       
+    .team figure {
+        width:180px;
+        height:180px;
+
+    }
+
 }
 
 
@@ -93,6 +98,10 @@
 
     .hello h2 {
         font-size:82px !important;
+    }
+    .team figure {
+        width:220px;
+        height:220px;
     }
 
 
