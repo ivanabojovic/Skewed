@@ -79,7 +79,9 @@
         padding:250px 0;
     }
     .video:before,
-    .video:after {
+    .video:after,
+    .parallax:before,
+    .parallax:after {
         height:150px;
     }
     .team figure {
